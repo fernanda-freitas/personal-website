@@ -2,11 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Link from 'gatsby-link'
 
-
-export default function HomePage() {
+export default function AboutPage() {
   return (
     <Layout>
-      <Link to="/about/">Link to About</Link>
+        <Link to="/">Link to home</Link>
     </Layout>
   )
 }
