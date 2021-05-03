@@ -1,9 +1,12 @@
 import React from "react"
+import "../styles/global.css"
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-      {children}
+    <div>
+      {/* Add header component here */}
+      <main>{children}</main>
+      {/* Add footer component here */}
     </div>
   )
 }
