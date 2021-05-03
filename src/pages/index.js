@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <Layout>
       <Link to="/about/">Link to About</Link>
-      <div className=" text-blue-500">Lorem</div>
     </Layout>
   )
 }
+
