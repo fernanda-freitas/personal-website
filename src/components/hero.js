@@ -1,14 +1,21 @@
 import React from "react"
 import "tailwindcss/tailwind.css"
 import Particles from 'react-particles-js';
+import Cursor from ".//cursor"
 
 export default function Hero() {
     return (
         <div>
-        <div className="absolute inset-0 max-w-7xl mx-auto pt-40">
-          <h1 className="text-5xl font-rubik font-bold text-gray-700 uppercase">Hello,</h1>
-        </div>
-        <Particles
+          <Cursor></Cursor>
+          <div className="grid grid-cols-12 absolute inset-0 max-w-7xl mx-auto pt-60">
+            <div className="col-span-3">
+              <h1 className="text-7xl font-rubik font-bold text-gray-700 uppercase">Hello,</h1>
+            </div>
+            <div className="col-span-9">
+              <h3 className="text-4xl font-rubik font-light leading-normal text-gray-700">I’m a <span className="font-semibold">UI/UX Designer</span> who creates <span className="font-semibold">digital interfaces</span>, <span className="font-semibold">prototypes</span> and <span className="font-semibold">front-ends it</span>. Apart from that I love to illustrate and create beautiful visual concepts.</h3>
+            </div>
+          </div>
+          <Particles
             className="absolute inset-0"
             params={{
               "particles": {
@@ -23,7 +30,7 @@ export default function Hero() {
                     "value": "#9ca3af"
                   },
                   "size": {
-                      "value": 4,
+                      "value": 0,
                       "random": true,
                       "anim": {
                           "speed": 3,
@@ -31,7 +38,7 @@ export default function Hero() {
                       }
                   },
                   "line_linked": {
-                    "enable": false,
+                    "enable": true,
                     "distance": 150,
                     "color": "#d1d5db",
                     "opacity": 0.4,
@@ -77,7 +84,7 @@ export default function Hero() {
                     }
                 }
               }
-            }} />
+          }} />
       </div>
     )
 };
