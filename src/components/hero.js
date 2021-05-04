@@ -7,11 +7,11 @@ export default function Hero() {
     return (
         <div>
           <Cursor></Cursor>
-          <div className="grid grid-cols-12 absolute inset-0 max-w-7xl mx-auto pt-60">
-            <div className="col-span-3">
-              <h1 className="text-7xl font-rubik font-bold text-gray-700 uppercase">Hello,</h1>
+          <div className="grid grid-cols-12 absolute inset-0 w-10/12 mx-auto pt-40 md:pt-60">
+            <div className="col-span-12 md:col-span-3">
+              <h1 className="text-6xl font-rubik font-bold text-gray-700 uppercase">Hello,</h1>
             </div>
-            <div className="col-span-9">
+            <div className="col-span-12 md:col-span-9 pt-20 md:pt-0">
               <h3 className="text-4xl font-rubik font-light leading-normal text-gray-700">I’m a <span className="font-semibold">UI/UX Designer</span> who creates <span className="font-semibold">digital interfaces</span>, <span className="font-semibold">prototypes</span> and <span className="font-semibold">front-ends it</span>. Apart from that I love to illustrate and create beautiful visual concepts.</h3>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Hero() {
                   },
                   "move": {
                     "enable": true,
-                    "speed": 2,
+                    "speed": 1,
                     "direction": "none",
                     "random": false,
                     "straight": false,
