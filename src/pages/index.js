@@ -7,7 +7,7 @@ import "tailwindcss/tailwind.css"
 export default function HomePage() {
   return (
     <Layout>
-      <Link to="/about/">Link to About</Link>
+      <div className="bg-gray-200 h-96"></div>
     </Layout>
   )
 }
