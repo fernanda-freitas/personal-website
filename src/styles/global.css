@@ -33,4 +33,28 @@
         transform: translate3d(0,0,0);
         position: fixed;
     } */
+
+    .hover-underline {
+        position: relative;
+        text-decoration: none;
+    }
+      
+    .hover-underline:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        display: inline-block;
+        width: 0%;
+        border-bottom: 2px solid #374151;
+        margin-top: 1.6em;
+        transition: all .3s;
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    .project-thumb:hover .hover-underline:after{
+        width: 100%;
+        opacity: 1;
+        transform: scale(1);
+    }
 }
