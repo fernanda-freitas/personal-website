@@ -7,12 +7,11 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-plugin-postcss',
+    'gatsby-plugin-postcss', 
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
-        offset: -100,
-        duration: 1000
+        offset: -100
       }
     }
 ],
