@@ -15,25 +15,13 @@
         border-radius: 50%;
         height: 80px;
         width: 80px;
-        border: 1px solid black;
+        border: 1px solid #8B5CF6;
         pointer-events: none;
         overflow: hidden;
         transform: translate3d(0,0,0);
         position: fixed;
     }
-    /* .custom-cursor {
-        z-index: 1000;
-        border-radius: 50%;
-        height: 400px;
-        width: 400px;
-        background: rgb(125,58,237);
-        background: radial-gradient(circle, rgba(125,58,237,.3) 0%, rgba(255,255,255,0) 70%);
-        pointer-events: none;
-        overflow: hidden;
-        transform: translate3d(0,0,0);
-        position: fixed;
-    } */
-
+    
     .hover-underline {
         position: relative;
         text-decoration: none;

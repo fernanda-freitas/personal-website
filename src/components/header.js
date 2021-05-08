@@ -1,5 +1,4 @@
 import React from "react"
-import "../styles/global.css"
 import Link from 'gatsby-link'
 
 export default function Header() {
