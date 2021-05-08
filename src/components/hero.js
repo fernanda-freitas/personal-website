@@ -2,7 +2,6 @@ import React from "react"
 import "tailwindcss/tailwind.css"
 import Particles from 'react-particles-js';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import "tailwindcss/tailwind.css"
 import IconArrowDown from "../assets/svg/IconArrowDown"
 
 export default function Hero() {
