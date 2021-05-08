@@ -4,7 +4,6 @@
 @import "tailwindcss/utilities";
 
 @layer utilities {
-    /* Custom css goes here */
     
     body {
         cursor: none;
@@ -41,7 +40,6 @@
     }
 
     .project-thumb:hover .hover-underline:after{
-        width: 100%;
         opacity: 1;
         transform: scale(1);
     }

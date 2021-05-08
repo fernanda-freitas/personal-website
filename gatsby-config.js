@@ -13,6 +13,14 @@ module.exports = {
       options: {
         offset: -100
       }
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /svg/
+        }
+      }
     }
 ],
   pathPrefix: "/work",
