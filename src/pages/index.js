@@ -24,10 +24,10 @@ export default function HomePage() {
         <Cursor />
         <section id="about" className="h-screen bg-gray-100">
           <div className="w-10/12 mx-auto py-40 grid grid-cols-12 grid-rows-2 gap-8">
-              <h1 className="col-span-12 row-span-1 lg:col-span-3 text-5xl font-rubik font-bold text-gray-700">About</h1>
+              <h1 className="col-span-12 row-span-1 lg:col-span-3 text-5xl font-rubik font-bold text-gray-900">About</h1>
               <div className="col-span-12 row-span-1 lg:col-span-8">
-                <p className="font-rubik text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc. Ligula ullamcorper malesuada proin libero nunc. Vitae congue eu consequat ac felis donec et odio pellentesque. Tincidunt lobortis feugiat vivamus at augue. Turpis egestas maecenas pharetra convallis posuere. Integer vitae justo eget magna fermentum iaculis eu non.</p>
-                <p className="font-rubik text-lg text-gray-700">Risus viverra adipiscing at in tellus integer feugiat. Egestas egestas fringilla phasellus faucibus scelerisque. Ultricies leo integer malesuada nunc. Lacus sed viverra tellus in hac habitasse platea dictumst.</p>
+                <p className="font-rubik text-lg text-gray-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc. Ligula ullamcorper malesuada proin libero nunc. Vitae congue eu consequat ac felis donec et odio pellentesque. Tincidunt lobortis feugiat vivamus at augue. Turpis egestas maecenas pharetra convallis posuere. Integer vitae justo eget magna fermentum iaculis eu non.</p>
+                <p className="font-rubik text-lg text-gray-900">Risus viverra adipiscing at in tellus integer feugiat. Egestas egestas fringilla phasellus faucibus scelerisque. Ultricies leo integer malesuada nunc. Lacus sed viverra tellus in hac habitasse platea dictumst.</p>
               </div>
             <div className="flex col-start-4 col-span-8 row-start-2 space-x-6">
               <a 
@@ -36,7 +36,6 @@ export default function HomePage() {
               rel="noreferrer"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
-              role="link"
               tabIndex="0"
               className="social-icon"
               >
@@ -48,7 +47,6 @@ export default function HomePage() {
               rel="noreferrer"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
-              role="link"
               tabIndex="0"
               className="social-icon"
               >
@@ -60,7 +58,6 @@ export default function HomePage() {
               rel="noreferrer"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
-              role="link"
               tabIndex="0"
               className="social-icon"
               >
@@ -72,7 +69,6 @@ export default function HomePage() {
               rel="noreferrer"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
-              role="link"
               tabIndex="0"
               className="social-icon"
               >
@@ -84,7 +80,6 @@ export default function HomePage() {
               rel="noreferrer"
               onMouseEnter={() => cursorChangeHandler("hovered")}
               onMouseLeave={() => cursorChangeHandler("")}
-              role="link"
               tabIndex="0"
               className="social-icon"
               >
@@ -94,8 +89,8 @@ export default function HomePage() {
           </div>
         </section>
         <section id="contact" className="w-10/12 mx-auto my-32 block md:flex items-end">
-          <span className="font-rubik text-gray-700 text-xs md:text-base">© 2021 Fernanda Freitas</span>
-          <span className="font-rubik text-gray-700 text-xl font-bold ml-auto">idea.fernanda@gmail.com</span>
+          <span className="font-rubik text-gray-900 text-xs md:text-base">© 2021 Fernanda Freitas</span>
+          <span className="font-rubik text-gray-900 text-xl font-bold ml-auto">idea.fernanda@gmail.com</span>
         </section>
     </>
   )

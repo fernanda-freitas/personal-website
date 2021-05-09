@@ -10,7 +10,7 @@ export default function Header() {
     return (
         < >
             <Cursor />
-            <nav className="absolute inset-0 z-10 w-10/12 h-20 flex mx-auto items-center justify-between font-rubik text-gray-700">
+            <nav className="absolute inset-0 z-10 w-10/12 h-20 flex mx-auto items-center justify-between font-rubik text-gray-900">
                 <div>
                     <a href="https://www.linkedin.com/in/fernanda-freitas-martinez-8b9a792a/" target="_blank" rel="noreferrer" className="hidden md:inline text-xl font-medium">@fernanda-freitas</a>
                     <a href="https://www.linkedin.com/in/fernanda-freitas-martinez-8b9a792a/" target="_blank" rel="noreferrer" className="inline md:hidden text-xl font-medium">@fernanda</a>
