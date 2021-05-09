@@ -14,25 +14,25 @@ export default function Work() {
             <div className="col-span-12 md:col-span-6">
                 <Link className="project-thumb text-gray-600 hover:scale transition duration-300 ease-in-out" to="/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-56 transform transition duration-500 hover:scale-110" src={IllustrationThumb}/>
+                    <img className="object-cover w-full h-56 transform transition duration-500 hover:scale-110" src={IllustrationThumb} alt="Alterar alt"/>
                   </div>
-                    <h3 className="hover-underline inline ml-8 text-xl font-rubik text-gray-700">Illustrations</h3>
+                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Illustrations</h3>
                 </Link>  
             </div>
             <div className="col-span-12 md:col-span-6">
                 <Link className="project-thumb text-gray-600 transition duration-300 ease-in-out" to="/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-56 transform transition duration-500 hover:scale-110" src={InohubThumb}/>
+                    <img className="object-cover w-full h-56 transform transition duration-500 hover:scale-110" src={InohubThumb} alt="Alterar alt"/>
                   </div>
-                    <h3 className="hover-underline inline ml-8 text-xl font-rubik text-gray-700">Inohub</h3>
+                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Inohub</h3>
                 </Link>  
             </div>
             <div className="col-span-12 md:col-span-6">
                 <Link className="project-thumb text-gray-600 transition duration-300 ease-in-out" to="/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-56 transform transition duration-500 hover:scale-110" src={TbThumb}/>
+                    <img className="object-cover w-full h-56 transform transition duration-500 hover:scale-110" src={TbThumb} alt="Alterar alt"/>
                   </div>
-                    <h3 className="hover-underline inline ml-8 text-xl font-rubik text-gray-700">Transparência Brasil</h3>
+                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Transparência Brasil</h3>
                 </Link>  
             </div>
           </div>

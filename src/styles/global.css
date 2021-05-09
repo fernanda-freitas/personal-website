@@ -4,43 +4,45 @@
 @import "tailwindcss/utilities";
 
 @layer utilities {
-    
-    body {
-        cursor: none;
+
+    ::selection {
+      color: white;
+      background: #7d3aed;
     }
 
-    .custom-cursor {
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .social-icon * {
+      transition-duration: 300ms;
+      transition-timing-function: ease;
+    }
+
+    .social-icon:hover * {
+      fill: #7d3aed;
+    }
+
+    .cursor {
         z-index: 1000;
-        border-radius: 50%;
-        height: 80px;
-        width: 80px;
-        border: 1px solid #8B5CF6;
-        pointer-events: none;
-        overflow: hidden;
-        transform: translate3d(0,0,0);
         position: fixed;
-    }
-    
-    .hover-underline {
-        position: relative;
-        text-decoration: none;
-    }
-      
-    .hover-underline:after {
-        content: '';
-        position: absolute;
+        top: 0;
         left: 0;
-        display: inline-block;
-        width: 0%;
-        border-bottom: 2px solid #374151;
-        margin-top: 1.6em;
-        transition: all .3s;
-        opacity: 0;
-        transform: scale(1);
-    }
-
-    .project-thumb:hover .hover-underline:after{
-        opacity: 1;
-        transform: scale(1);
-    }
+        width: 20px;
+        height: 20px;
+        background-color: #7d3aed;
+        transform: translate(-50%, -50%);
+        transition-duration: 80ms;
+        transition-timing-function: ease;
+        will-change: width, height, background-color, border;
+        pointer-events: none;
+        border-radius: 100vw;
+      }
+      
+      .cursor.hovered {
+        width: 70px;
+        height: 70px;
+        background-color: transparent;
+        border: 2px solid #7d3aed;
+      }
 }
