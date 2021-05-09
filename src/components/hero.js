@@ -94,7 +94,7 @@ export default function Hero() {
                     role="link"
                     tabIndex="0"
                   >
-                  <AnchorLink to="/#work" title="All works" className="social-icon">
+                  <AnchorLink to="/#work" title="All works">
                     <IconArrowDown />
                   </AnchorLink>
               </div>
