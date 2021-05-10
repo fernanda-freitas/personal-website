@@ -7,7 +7,7 @@ module.exports = {
         rubik: ['Rubik']
       },
       spacing: {
-        136: '544',
+        136: '544px',
         172: '690px'
       }
     },

@@ -6,7 +6,7 @@ import { MouseContext } from "../context/mouse-context";
 
 // ------- import thumbnail images -------
 import IllustrationThumb from "../assets/images/illustration-cover.jpg"
-import InohubThumb from "../assets/images/inohub-thumb.jpg"
+import InohubThumb from "../assets/images/inohub/inohub-thumb.jpg"
 import TbThumb from "../assets/images/tb-thumb.png"
 
 export default function Work() {
