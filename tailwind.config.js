@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         rubik: ['Rubik']
+      },
+      spacing: {
+        136: '544',
+        172: '690px'
       }
     },
   },
