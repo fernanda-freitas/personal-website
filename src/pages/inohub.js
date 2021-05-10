@@ -14,8 +14,6 @@ import Inohub11 from "../assets/images/inohub/inohub11.jpg"
 import Inohub12 from "../assets/images/inohub/inohub12.jpg"
 import Inohub13 from "../assets/images/inohub/inohub13.jpg"
 
-
-
 export default function InohubPage() {
   return  (
     <>
@@ -36,7 +34,7 @@ export default function InohubPage() {
         <div className="w-9/12 mx-auto my-40 col-span-12 grid grid-cols-12 gap-8">
           <h1 className="col-span-12 lg:col-span-3 text-4xl font-rubik font-bold text-gray-700">Identity</h1>
           <h3 className="col-span-12 lg:col-span-9 text-3xl font-rubik font-light leading-normal text-gray-700">In order to represent it's four working axes (media, technology, consume and culture), the visual identity aimed to achieve a sense of boldness and agility through a modular system and a direct tone of voice which uses words as visual highlights.</h3>
-        </div>  
+        </div> 
         <img className="w-9/12 mx-auto h-auto mt-40 rounded-t-2xl object-cover" src={Inohub03} alt="Alterar alt" />
         <img className="w-9/12 mx-auto h-auto mt-20 object-cover" src={Inohub08} alt="Alterar alt" />
         <img className="w-9/12 mx-auto h-auto mt-20 object-cover" src={Inohub09} alt="Alterar alt" />
