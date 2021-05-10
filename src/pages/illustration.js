@@ -27,15 +27,17 @@ export default function illustration() {
                 <img className="col-span-12 md:col-span-4" src={Illustration02} alt="Illustration" />
                 <img className="col-span-12 md:col-span-4" src={Illustration08} alt="Illustration" />
                 <img className="col-span-12 md:col-span-4" src={Illustration01} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4" src={Illustration06} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4" src={Illustration05} alt="Illustration" />
+                <div className="grid grid-cols-12 grid-rows-2 col-span-12 gap-16">
+                    <img className="col-span-12 md:col-span-8 md:row-span-2" src={Illustration06} alt="Illustration" />
+                    <img className="col-span-12 md:col-span-4 md:row-span-1" src={Illustration05} alt="Illustration" />
+                    <img className="col-span-12 md:col-span-4 md:row-span-1" src={Illustration12} alt="Illustration" />
+                </div>
+                <img className="col-span-12 md:col-span-4" src={Illustration09} alt="Illustration" />
                 <img className="col-span-12 md:col-span-4" src={Illustration04} alt="Illustration" />
                 <img className="col-span-12 md:col-span-4" src={Illustration07} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4 w-full object-cover" src={Illustration13} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4" src={Illustration09} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4" src={Illustration10} alt="Illustration" />
                 <img className="col-span-12 md:col-span-4" src={Illustration11} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4" src={Illustration12} alt="Illustration" />
+                <img className="col-span-12 md:col-span-4" src={Illustration10} alt="Illustration" />
+                <img className="col-span-12 md:col-span-4 w-full object-cover" src={Illustration13} alt="Illustration" />
                 <img className="col-span-12" src={Illustration15} alt="Illustration" />
             </div>
         </ >
