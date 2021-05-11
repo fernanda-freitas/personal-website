@@ -13,7 +13,7 @@ export default function Work() {
   const { cursorChangeHandler } = useContext(MouseContext);
 
     return (
-        <section id="work" className="w-9/12 mx-auto my-40">
+        <section id="work" className="w-10/12 mx-auto my-40">
           <div className="grid grid-cols-12 gap-12 mt-20">
             <div className="col-span-12 md:col-span-6"
                 onMouseEnter={() => cursorChangeHandler("hovered")}

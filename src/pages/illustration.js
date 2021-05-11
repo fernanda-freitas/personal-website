@@ -19,11 +19,11 @@ import Illustration15 from "../assets/images/illustration/illustration015.jpg"
 export default function illustration() {
     return (
         <>
-            <div className="w-9/12 mx-auto mb-28 mt-32">
-            <h2 className="text-5xl font-rubik font-bold text-gray-700">Illustration</h2>
+            <div className="w-10/12 mx-auto mb-28 mt-32">
+                <h2 className="text-5xl font-rubik font-bold text-gray-700">Illustration</h2>
             </div>
             <img className="w-full h-172 object-cover" src={Illustration00} alt="Alterar alt" />
-            <div className="grid grid-cols-12 gap-16 p-16">
+            <div className="grid grid-cols-12 gap-16 p-16 pb-0">
                 <img className="col-span-12 md:col-span-4" src={Illustration02} alt="Illustration" />
                 <img className="col-span-12 md:col-span-4" src={Illustration08} alt="Illustration" />
                 <img className="col-span-12 md:col-span-4" src={Illustration01} alt="Illustration" />

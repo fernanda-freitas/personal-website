@@ -16,7 +16,7 @@ export default function About() {
     return (
         <section id="about" className="bg-gray-100">
             <Cursor />
-          <div className="w-9/12 mx-auto py-40 grid grid-cols-12 gap-8">
+          <div className="w-10/12 mx-auto py-40 grid grid-cols-12 gap-8">
               <h1 className="col-span-12 lg:col-span-3 text-5xl font-rubik font-bold text-gray-700">About</h1>
               <div className="col-span-12 lg:col-span-8">
                 <p className="font-rubik text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc. Ligula ullamcorper malesuada proin libero nunc. Vitae congue eu consequat ac felis donec et odio pellentesque. Tincidunt lobortis feugiat vivamus at augue. Turpis egestas maecenas pharetra convallis posuere. Integer vitae justo eget magna fermentum iaculis eu non.</p>
