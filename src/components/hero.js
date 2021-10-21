@@ -9,7 +9,7 @@ export default function Hero() {
   const { cursorChangeHandler } = useContext(MouseContext)
   return (
     <>
-      <div className="grid grid-cols-12 gap-8 h-screen w-10/12 mx-auto pt-20">
+      <div className="grid grid-cols-12 gap-8 min-h-172 w-10/12 mx-auto pt-20">
         <div className="col-span-12 grid grid-cols-12 gap-8 pt-20 md:pt-60">
           <h1 className="col-span-12 lg:col-span-3 text-6xl font-rubik font-bold text-gray-700 uppercase">
             Hello,
