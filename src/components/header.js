@@ -22,13 +22,6 @@ export default function Header() {
                         onMouseLeave={() => cursorChangeHandler("")}
                         role="link"
                         tabIndex="0">
-                        <a className="font-rubik uppercase hover:text-purple-600" href="https://dribbble.com/fernanda_freitas" target="_blank">Dribbble Shots</a>
-                    </div>
-                    <div
-                        onMouseEnter={() => cursorChangeHandler("hovered")}
-                        onMouseLeave={() => cursorChangeHandler("")}
-                        role="link"
-                        tabIndex="0">
                         <a className="font-rubik uppercase hover:text-purple-600" href="https://www.instagram.com/fernanda_freitas_martinez/" target="_blank">Instagram</a>
                     </div>
                     <div
