@@ -9,7 +9,7 @@ import IllustrationThumb from "../assets/images/illustration/illustration-thumb.
 import InohubThumb from "../assets/images/inohub/inohub-thumb.jpg"
 import TbThumb from "../assets/images/tb-thumb.png"
 import MedicaThumb from "../assets/images/medica/01.gif"
-import ConstruirThumb from "../assets/images/construir/03.jpg"
+import ConstruirThumb from "../assets/images/construir/02.jpg"
 
 export default function Work() {
   const { cursorChangeHandler } = useContext(MouseContext);
