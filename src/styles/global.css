@@ -18,7 +18,7 @@
       transition-duration: 300ms;
       transition-timing-function: ease;
     }
-    
+
     .social-icon:hover * {
       fill: #7d3aed;
     }
@@ -38,11 +38,15 @@
         pointer-events: none;
         border-radius: 100vw;
       }
-      
+
       .cursor.hovered {
         width: 70px;
         height: 70px;
         background-color: transparent;
         border: 2px solid #7d3aed;
+      }
+
+      .leading {
+        line-height: 3.3rem !important;
       }
 }

@@ -9,12 +9,12 @@ export default function Hero() {
   const { cursorChangeHandler } = useContext(MouseContext)
   return (
     <>
-      <div className="grid grid-cols-12 gap-8 min-h-172 w-10/12 mx-auto pt-20">
-        <div className="col-span-12 grid grid-cols-12 gap-8 pt-20 md:pt-60">
-          <h1 className="col-span-12 lg:col-span-3 text-6xl font-rubik font-bold text-gray-700 uppercase">
+      <div className="grid grid-cols-12 gap-8 min-h-172 w-10/12 mx-auto md:pt-20">
+        <div className="col-span-12 md:col-span-8 gap-8 pt-20 md:pt-60">
+          <h1 className="text-3xl md:text-6xl font-rubik font-bold text-gray-700 uppercase">
             Hello,
           </h1>
-          <h3 className="col-span-12 lg:col-span-9 text-4xl font-rubik font-light leading-normal text-gray-700">
+          <h3 className="leading mt-8 text-lg md:text-4xl font-rubik font-light text-gray-700">
             I’m a <span className="font-semibold">UI/UX Designer</span> who
             creates <span className="font-semibold">digital interfaces</span>,{" "}
             <span className="font-semibold">prototypes</span> and{" "}
@@ -23,7 +23,7 @@ export default function Hero() {
           </h3>
         </div>
         <Cursor />
-        <div className="col-span-12 flex flex-col justify-end mb-10 text-gray-700">
+        <div className="col-span-12 md:col-span-8 flex flex-col justify-end mb-10 text-gray-700">
           <span className="font-rubik text-sm uppercase">See Projects</span>
           <div
             onMouseEnter={() => cursorChangeHandler("hovered")}
