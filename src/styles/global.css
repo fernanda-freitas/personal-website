@@ -46,7 +46,23 @@
         border: 2px solid #7d3aed;
       }
 
-      .leading {
-        line-height: 3.3rem !important;
+      .tilte {
+        font-size: 3rem;
+      }
+
+      .introduction {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+      }
+
+      @media (min-width: 576px){
+        .tilte {
+          font-size: 3.75rem;
+        }
+
+        .introduction {
+          font-size: 2.3rem;
+          line-height: 3.3rem;
+        }
       }
 }
