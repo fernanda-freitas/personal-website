@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <>
       <div className="grid grid-cols-12 gap-8 min-h-172 w-10/12 mx-auto md:pt-20">
-        <div className="col-span-12 md:col-span-8 gap-8 pt-20 md:pt-60">
+        <div className="col-span-12 md:col-span-8 gap-8 pt-20 md:pt-40">
           <h1 className="text-3xl md:text-6xl font-rubik font-bold text-gray-700 uppercase">
             Hello,
           </h1>
