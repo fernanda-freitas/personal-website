@@ -23,11 +23,12 @@ export default function illustration() {
                 <h2 className="text-5xl font-rubik font-bold text-gray-700">Illustration</h2>
             </div>
             <img className="w-full h-172 object-cover" src={Illustration00} alt="Alterar alt" />
-            <div className="grid grid-cols-12 gap-16 p-16 pb-0">
-                <img className="col-span-12 md:col-span-4" src={Illustration02} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4" src={Illustration08} alt="Illustration" />
-                <img className="col-span-12 md:col-span-4" src={Illustration01} alt="Illustration" />
-                <div className="grid grid-cols-12 grid-rows-2 col-span-12 gap-16">
+
+            <div className="grid grid-cols-12 p-6 md:p-16 pb-0 gap-8">
+                <img className="col-span-12 md:col-span-4 object-contain" src={Illustration02} alt="Illustration" />
+                <img className="col-span-12 md:col-span-4 object-contain" src={Illustration01} alt="Illustration" />
+                <img className="col-span-12 md:col-span-4 object-contain" src={Illustration08} alt="Illustration" />
+                <div className="grid grid-cols-12 grid-rows-2 col-span-12 gap-8">
                     <img className="col-span-12 md:col-span-8 md:row-span-2" src={Illustration06} alt="Illustration" />
                     <img className="col-span-12 md:col-span-4 md:row-span-1" src={Illustration05} alt="Illustration" />
                     <img className="col-span-12 md:col-span-4 md:row-span-1" src={Illustration12} alt="Illustration" />
