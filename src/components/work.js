@@ -20,11 +20,21 @@ export default function Work() {
             <div className="col-span-12 md:col-span-6"
                 onMouseEnter={() => cursorChangeHandler("hovered")}
                 onMouseLeave={() => cursorChangeHandler("")}>
-                <Link className="project-thumb text-gray-700 hover:scale transition duration-300 ease-in-out" to="/illustration/">
+                <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/artsol/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={IllustrationThumb} alt="Alterar alt"/>
+                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={ConstruirThumb} alt="Alterar alt"/>
                   </div>
-                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Illustrations</h3>
+                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Artsol</h3>
+                </Link>
+            </div>
+            <div className="col-span-12 md:col-span-6"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}>
+                <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/construir/">
+                  <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
+                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={ConstruirThumb} alt="Alterar alt"/>
+                  </div>
+                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Construir</h3>
                 </Link>
             </div>
             <div className="col-span-12 md:col-span-6"
@@ -50,11 +60,11 @@ export default function Work() {
             <div className="col-span-12 md:col-span-6"
                 onMouseEnter={() => cursorChangeHandler("hovered")}
                 onMouseLeave={() => cursorChangeHandler("")}>
-                <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/construir/">
+                <Link className="project-thumb text-gray-700 hover:scale transition duration-300 ease-in-out" to="/illustration/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={ConstruirThumb} alt="Alterar alt"/>
+                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={IllustrationThumb} alt="Alterar alt"/>
                   </div>
-                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Construir</h3>
+                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Illustrations</h3>
                 </Link>
             </div>
             <div className="col-span-12 md:col-span-6"
