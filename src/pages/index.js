@@ -8,9 +8,10 @@ import Work from "../components/work"
 export default function HomePage() {
   return (
     <>
-      <Hero />
-      <Work />
-      {/* <About /> */}
+      <div className="mb-28">
+        <Hero />
+        <Work />
+      </div>
     </>
   )
 }
