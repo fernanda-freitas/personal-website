@@ -21,7 +21,7 @@ export default function Hero() {
             I'm currently perfecting my Fullstack Dev skills with <a className="font-rubik text-purple-600" href="https://www.switchup.org/bootcamps/le-wagon" target="_blank"> Le Wagon's </a> super imersive Bootcamp - considered the best bootcamp according to
             <a className="font-rubik text-purple-600" href="https://www.switchup.org/bootcamps/le-wagon" target="_blank"> Switchup </a>
             and <a className="font-rubik text-purple-600" href="https://www.coursereport.com/schools/le-wagon" target="_blank">Course Report</a>.
-            This is the core of what I've beeng learning: Ruby, SQLite Postres sql, JavaScript (ES6, AJAX, HTML, CSS (SCSS), Git & Github, Heroku.
+            This is the core of what I've beeng learning: Ruby, SQLite, Postgres SQL, JavaScript (ES6, AJAX, HTML, CSS (SCSS), Git & Github, Heroku.
           </h5>
         </div>
         <Cursor />
