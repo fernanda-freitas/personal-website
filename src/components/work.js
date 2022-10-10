@@ -24,7 +24,7 @@ export default function Work() {
                 onMouseLeave={() => cursorChangeHandler("")}>
                 <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/construir/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover object-top w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={ConstruirThumb} alt="Alterar alt"/>
+                    <img className="object-cover object-top w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={ConstruirThumb} alt="Alterar alt"/>
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Construir</h3>
                 </Link>
@@ -34,7 +34,7 @@ export default function Work() {
                 onMouseLeave={() => cursorChangeHandler("")}>
                 <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/artsol/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover object-top w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={ArtsolThumb} alt="Alterar alt"/>
+                    <img className="object-cover object-top w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={ArtsolThumb} alt="Alterar alt"/>
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Artsol</h3>
                 </Link>
@@ -44,7 +44,7 @@ export default function Work() {
               onMouseLeave={() => cursorChangeHandler("")}>
               <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/watchlist/">
                 <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                  <img className="object-cover object-top w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={WatchlistThumb} alt="Alterar alt"/>
+                  <img className="object-cover object-top w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={WatchlistThumb} alt="Alterar alt"/>
                 </div>
                   <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Watchlist</h3>
               </Link>
@@ -54,7 +54,7 @@ export default function Work() {
               onMouseLeave={() => cursorChangeHandler("")}>
               <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/applepie/">
                 <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                  <img className="object-cover object-top w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={ApplepieThumb} alt="Alterar alt"/>
+                  <img className="object-cover object-top w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={ApplepieThumb} alt="Alterar alt"/>
                 </div>
                   <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Applepie</h3>
               </Link>
@@ -64,7 +64,7 @@ export default function Work() {
                 onMouseLeave={() => cursorChangeHandler("")}>
                 <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/transparencia/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={TbThumb} alt="Alterar alt"/>
+                    <img className="object-cover w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={TbThumb} alt="Alterar alt"/>
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Transparência Brasil</h3>
                 </Link>
@@ -74,7 +74,7 @@ export default function Work() {
                 onMouseLeave={() => cursorChangeHandler("")}>
                 <Link className="project-thumb text-gray-700 transition duration-300 ease-in-out" to="/medica/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={MedicaThumb} alt="Alterar alt"/>
+                    <img className="object-cover w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={MedicaThumb} alt="Alterar alt"/>
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Medica</h3>
                 </Link>
@@ -84,7 +84,7 @@ export default function Work() {
                 onMouseLeave={() => cursorChangeHandler("")}>
                 <Link className="project-thumb text-gray-700 hover:scale transition duration-300 ease-in-out" to="/illustration/">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={IllustrationThumb} alt="Alterar alt"/>
+                    <img className="object-cover w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={IllustrationThumb} alt="Alterar alt"/>
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Illustrations</h3>
                 </Link>
@@ -94,7 +94,7 @@ export default function Work() {
                 onMouseLeave={() => cursorChangeHandler("")}>
                 <a href="https://dribbble.com/fernanda_freitas" target="_blank" className="project-thumb text-gray-700 transition duration-300 ease-in-out">
                   <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-40 md:h-60 transform transition duration-500 hover:scale-110" src={DribbbleThumb} alt="Alterar alt"/>
+                    <img className="object-cover w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={DribbbleThumb} alt="Alterar alt"/>
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Dribbble Shots</h3>
                 </a>
