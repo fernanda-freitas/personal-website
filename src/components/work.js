@@ -10,7 +10,7 @@ import TbThumb from "../assets/images/tb-thumb.png"
 import MedicaThumb from "../assets/images/medica/01.gif"
 import ConstruirThumb from "../assets/images/construir/02.jpg"
 import ArtsolThumb from "../assets/images/artsol/02.png"
-import DribbbleThumb from "../assets/images/dribbble/01.png"
+import DribbbleThumb from "../assets/images/dribbble/02.png"
 import WatchlistThumb from "../assets/images/watchlist/01.png"
 import ApplepieThumb from "../assets/images/applepie/03.png"
 
@@ -28,6 +28,16 @@ export default function Work() {
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Construir</h3>
                 </Link>
+            </div>
+            <div className="col-span-12 md:col-span-6"
+                onMouseEnter={() => cursorChangeHandler("hovered")}
+                onMouseLeave={() => cursorChangeHandler("")}>
+                <a href="https://dribbble.com/fernanda_freitas" target="_blank" className="project-thumb text-gray-700 transition duration-300 ease-in-out">
+                  <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
+                    <img className="object-cover object-top w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={DribbbleThumb} alt="Alterar alt"/>
+                  </div>
+                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Dribbble Shots</h3>
+                </a>
             </div>
             <div className="col-span-12 md:col-span-6"
                 onMouseEnter={() => cursorChangeHandler("hovered")}
@@ -88,16 +98,6 @@ export default function Work() {
                   </div>
                     <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Illustrations</h3>
                 </Link>
-            </div>
-            <div className="col-span-12 md:col-span-6"
-                onMouseEnter={() => cursorChangeHandler("hovered")}
-                onMouseLeave={() => cursorChangeHandler("")}>
-                <a href="https://dribbble.com/fernanda_freitas" target="_blank" className="project-thumb text-gray-700 transition duration-300 ease-in-out">
-                  <div className="mb-6 rounded-3xl overflow-hidden" alt="Illustration project">
-                    <img className="object-cover w-full h-48 md:h-72 transform transition duration-500 hover:scale-110" src={DribbbleThumb} alt="Alterar alt"/>
-                  </div>
-                    <h3 className="inline ml-8 text-xl font-rubik text-gray-700">Dribbble Shots</h3>
-                </a>
             </div>
         </section>
     )
